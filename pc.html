@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Дополнительные комплектующие ПК</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <style>
+    :root {
+      --primary-color: #2980b9;
+      --background: #f4f7fa;
+      --card-bg: #fff;
+      --border: #e1e4e8;
+      --text: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .component {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+
+    .component:hover {
+      transform: translateY(-2px);
+    }
+
+    .component h2 {
+      margin-top: 0;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+    }
+
+    .component p {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: auto;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .total {
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .component {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+    <nav style="background:#2980b9; padding:10px 20px; font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;">
+        <ul style="list-style:none; margin:0; padding:0; display:flex; gap:20px;">
+          <li><a href="index.html" style="color:#fff; text-decoration:none; font-weight:bold;">Главная</a></li>
+          <li><a href="pc.html" style="color:#fff; text-decoration:none; font-weight:bold;">Комплектующие ПК</a></li>
+        </ul>
+      </nav>      
+  <div class="container">
+    <h1>Дополнительные комплектующие ПК</h1>
+    <h4 style="text-align: center;">Все цены актуальны на 28.05.2025</h4>
+
+    <!-- Клавиатура -->
+    <div class="component">
+      <h2>Клавиатура</h2>
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/5301629/img_id8977682222059869627.jpeg/optimize" alt="Клавиатура Logitech G Pro X" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/4500242/img_id1324564787897340506.jpeg/optimize" alt="Клавиатура Logitech G Pro X" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p><strong>Модель:</strong> Logitech G Pro X</p>
+      <p class="price">9 800 ₽</p>
+      <p><a href="https://market.yandex.ru/product--klaviatura-logitech-g-pro-x/1234567890" target="_blank" rel="noopener noreferrer">Ссылка на товар</a></p>
+    </div>
+
+    <!-- Мышь -->
+    <div class="component">
+      <h2>Мышь</h2>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/4418035/img_id790765436.jpg/optimize" alt="Мышь Logitech G502 HERO" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/5382719/img_id2234567890123456789.jpeg/optimize" alt="Мышь Logitech G502 HERO" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p><strong>Модель:</strong> Logitech G502 HERO</p>
+      <p class="price">5 200 ₽</p>
+      <p><a href="https://market.yandex.ru/product--mysh-logitech-g502-hero/1234567891" target="_blank" rel="noopener noreferrer">Ссылка на товар</a></p>
+    </div>
+
+    <!-- Монитор -->
+    <div class="component">
+      <h2>Монитор</h2>
+      <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/5364049/img_id8765432109876543210.jpeg/optimize" alt="Монитор LG 27GN950-B" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://avatars.mds.yandex.net/get-mpic/4425631/img_id9876543210123456789.jpeg/optimize" alt="Монитор LG 27GN950-B" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p><strong>Модель:</strong> LG 27GN950-B 27", 4K UHD, 144Hz</p>
+      <p class="price">55 000 ₽</p>
+      <p><a href="https://market.yandex.ru/product--monitor-lg-27gn950-b/1234567892" target="_blank" rel="noopener noreferrer">Ссылка на товар</a></p>
+    </div>
+
+    <div class="total" id="total-price">Общая стоимость: —</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    // Инициализация всех слайдеров
+    document.querySelectorAll('.swiper').forEach(swiperEl => {
+      new Swiper(swiperEl, {
+        loop: true,
+        pagination: {
+          el: swiperEl.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+      });
+    });
+
+    // Функция для парсинга цены из строки (удаляем пробелы и символы)
+    function parsePrice(text) {
+      return Number(text.replace(/\s/g, '').replace('₽', '')) || 0;
+    }
+
+    function calculateTotal() {
+      const prices = document.querySelectorAll('.price');
+      let total = 0;
+      prices.forEach(priceEl => {
+        total += parsePrice(priceEl.textContent);
+      });
+      return total.toLocaleString('ru-RU') + ' ₽';
+    }
+
+    document.getElementById('total-price').textContent = `Общая стоимость: ${calculateTotal()}`;
+  </script>
+</body>
+</html>
